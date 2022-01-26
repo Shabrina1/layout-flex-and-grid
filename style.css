@@ -15,3 +15,24 @@
 }
 
 /* Navbar style End */
+
+/* banner style start */
+
+.banner{
+    display: flex;
+}
+
+.banner-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* banner style end */
