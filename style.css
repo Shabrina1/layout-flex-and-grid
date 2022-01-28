@@ -53,3 +53,9 @@
 }
 
 /* banner style end */
+
+.popular-collection-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+}
