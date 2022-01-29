@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 80%;
@@ -29,14 +36,34 @@
     align-items: center;
 }
 
+.banner-left h1{
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.Influencer-color {
+    color: #005477;
+}
+
+.banner-left p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
 .link-button {
     color: white;
     background-color: #E02C6D;
-    font-size: 20px;
-    padding: 10px 30px;
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 10px 15px;
     border: 3px solid #E02C6D;
     border-radius: 50px;
     cursor: pointer;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
 }
 
 .link-button:hover{
@@ -54,8 +81,74 @@
 
 /* banner style end */
 
+/* popular collection style start  */
+
+.popular-collection {
+    margin-top: 40px;
+}
+.popular-collection-title h2 {
+    color: #3a3a3a;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
 .popular-collection-cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 40px;
 }
+
+.card {
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px #AAAAAA;
+}
+
+.card-details h3{
+    font-size: 25px;
+}
+
+.card-details-price{
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.card-details-rating {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.card-details-rating p{
+    margin-left: 15px;
+}
+
+.card-details-text {
+    font-size: 14px;
+    color: #787885;
+
+}
+
+/* popular collection style end */
+
+
+/* footer style start  */
+.footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.icon {
+    margin: 15px 11px;
+    font-size: 20px;
+}
+/* footer style end  */
